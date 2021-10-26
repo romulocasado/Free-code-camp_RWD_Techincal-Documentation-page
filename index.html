@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Technical Documentation Page</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
+</head>
+<body>
+   <nav id="navbar">
+      <header><strong>CSS Documentation</strong></header>
+      <a href="#introduction" class="nav-link">Introduction</a>
+      <a href="#prerequisites" class="nav-link">Prerequisites</a>
+      <a href="#Modules" class="nav-link">Modules</a>
+      <a href="#Solving_common_CSS_problems" class="nav-link">Solving common CSS problems</a>
+      <a href="#CSS_is_weird" class="nav-link">CSS is weird</a>
+        <a href="#example" class="nav-link">Example</a>  
+      <a href="#See_also" class="nav-link">See also</a>
+      
+      
+    
+    </nav>
+    
+    <main id="main-doc">
+      
+      <section class="main-section" id="introduction">
+        <header id="introduction">
+          Introduction
+        </header>
+        <p>Cascading Stylesheets — or CSS — is the first technology you should start learning after HTML. While HTML is used to define the structure and semantics of your content, CSS is used to style it and lay it out. For example, you can use CSS to alter the font, color, size, and spacing of your content, split it into multiple columns, or add animations and other decorative features.</p>
+      </section>
+      
+      <section class="main-section" id="prerequisites">
+        <header id="prerequisites">
+          Prerequisites
+        </header>
+        <p>You should learn the basics of HTML before attempting any CSS. We recommend that you work through our Introduction to HTML module first.</p>
+        <p>Once you understand the fundamentals of HTML, we recommend that you learn further HTML and CSS at the same time, moving back and forth between the two topics. This is because HTML is far more interesting and much more fun to learn when you apply CSS, and you can't really learn CSS without knowing HTML.</p>
+        <p>Before starting this topic, you should also be familiar with using computers and using the web passively (i.e., just looking at it, consuming the content). You should have a basic work environment set up as detailed in Installing basic software and understand how to create and manage files, as detailed in Dealing with files — both of which are parts of our Getting started with the web complete beginner's module.</p>
+        <p>It is also recommended that you work through Getting started with the web before proceeding with this topic, especially if you are completely new to web development. However, much of what is covered in its CSS basics article is also covered in our CSS first steps module, albeit in a lot more detail.</p>
+      </section>
+      
+      <section class="main-section" id="Modules">
+        <header id="Modules">
+          Modules
+        </header>
+        <p>This topic contains the following modules, in a suggested order for working through them. You should definitely start with the first one.</p>
+        <ul>
+          <li><h3>CSS first steps</h3></li>
+            <p>CSS (Cascading Style Sheets) is used to style and lay out web pages — for example, to alter the font, color, size, and spacing of your content, split it into multiple columns, or add animations and other decorative features. This module provides a gentle beginning to your path towards CSS mastery with the basics of how it works, what the syntax looks like, and how you can start using it to add styling to HTML.</p>
+            <li><h3>CSS building blocks</h3></li>
+            <p>This module carries on where CSS first steps left off — now you've gained familiarity with the language and its syntax, and got some basic experience with using it, its time to dive a bit deeper. This module looks at the cascade and inheritance, all the selector types we have available, units, sizing, styling backgrounds and borders, debugging, and lots more.
+    
+    The aim here is to provide you with a toolkit for writing competent CSS and help you understand all the essential theory, before moving on to more specific disciplines like text styling and CSS layout.</p>
+            <li><h3>Styling text</h3></li>
+            <p>With the basics of the CSS language covered, the next CSS topic for you to concentrate on is styling text — one of the most common things you'll do with CSS. Here we look at text styling fundamentals, including setting font, boldness, italics, line and letter spacing, drop shadows and other text features. We round off the module by looking at applying custom fonts to your page, and styling lists and links.</p>
+            <li><h3>CSS layout</h3></li>
+            <p>At this point we've already looked at CSS fundamentals, how to style text, and how to style and manipulate the boxes that your content sits inside. Now it's time to look at how to place your boxes in the right place in relation to the viewport, and one another. We have covered the necessary prerequisites so we can now dive deep into CSS layout, looking at different display settings, modern layout tools like flexbox, CSS grid, and positioning, and some of the legacy techniques you might still want to know about.</p>
+        </ul>
+      </section>
+      <section class="main-section" id="Solving_common_CSS_problems">
+        <header id="Solving_common_CSS_problems">
+          Solving common CSS problems
+        </header>
+        <p>Use CSS to solve common problems provides links to sections of content explaining how to use CSS to solve very common problems when creating a web page.</p>
+        <p>From the beginning, you'll primarily apply colors to HTML elements and their backgrounds; change the size, shape, and position of elements; and add and define borders on elements. But there's not much you can't do once you have a solid understanding of even the basics of CSS. One of the best things about learning CSS is that once you know the fundamentals, usually you have a pretty good feel for what can and can't be done, even if you don't actually know how to do it yet!</p>
+      </section>
+      
+      <section class="main-section" id="CSS_is_weird">
+        <header id="CSS_is_weird">
+          CSS is weird
+        </header>
+        <p>CSS works a bit differently to most programming languages and design tools you'll come across. Why does it work the way it does? In the following video, Miriam Suzanne provides a useful explanation of why CSS works like it does, and why it has evolved like it has:
+    </p>
+      </section>
+      
+      <section class="main-section" id="example">
+        <header id="example">
+          Example
+        </header> 
+        <h3>CSS selectors</h3>
+        <p>In CSS, selectors are used to target the HTML elements on our web pages that we want to style. There are a wide variety of CSS selectors available, allowing for fine-grained precision when selecting elements to style.</p>
+        <p>You have met selectors already. A CSS selector is the first part of a CSS Rule. It is a pattern of elements and other terms that tell the browser which HTML elements should be selected to have the CSS property values inside the rule applied to them. The element or elements which are selected by the selector are referred to as the subject of the selector.</p>
+        <h3>Types of selectors</h3>
+        <p>
+          There are a few different groupings of selectors, and knowing which type of selector you might need will help you to find the right tool for the job. In this article's subarticles we will look at the different groups of selectors in more detail.
+        </p>
+        <ul>
+          <li><h4>Type, class, and ID selectors</h4></li>
+            <p>
+            This group includes selectors that target an HTML element such as an h1.
+            </p>
+          <code>
+            h1 { }
+          </code>
+            <p>
+              It also includes selectors which target a class:
+            </p>
+           <code>
+             .box { }
+           </code>
+            <p>
+             or, an ID:
+            </p>
+          <code>
+            #unique { }
+          </code>
+          <li><h4>Attribute selectors</h4></li>
+            <p>
+          This group of selectors gives you different ways to select elements based on the presence of a certain attribute on an element:
+            </p>
+          <code>
+            a[title] { }
+          </code>
+            <p>
+            Or even make a selection based on the presence of an attribute with a particular value:
+            </p>
+          <code>
+            a[href="https://example.com"] { }
+          </code>
+          <li><h4>Pseudo-classes and pseudo-elements</h4></li>
+            <p>
+        This group of selectors includes pseudo-classes, which style certain states of an element. The :hover pseudo-class for example selects an element only when it is being hovered over by the mouse pointer:
+            </p>
+          <code>
+            a:hover { }
+          </code>
+            <p>
+              It also includes pseudo-elements, which select a certain part of an element rather than the element itself. 
+            </p>
+          <code>
+            p::first-line { }
+          </code>
+        </ul>
+      </section>
+      
+      <section class="main-section" id="See_also">
+        <header id="See-also">
+          See also
+        </header> 
+        <ul>
+          <li><h3>CSS on MDN</h3></li>
+          <p>The main entry point for CSS documentation on MDN, where you'll find detailed reference documentation for all features of the CSS language. Want to know all the values a property can take? This is a good place to go.</p>
+        </ul>
+      </section>      
+    </main>
+</body>
+</html>

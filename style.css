@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400&display=swap');
+
+* {
+ box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat';
+  display: flex;
+  margin: 0;
+  
+}
+nav {
+  background: #0cd7d7;
+  max-width: 300px;
+  height: 100vh;
+  border-right: 2px solid #0ab5b5;
+}
+nav header {
+  padding: 5px;
+  font-size: 25px;
+}
+nav a {
+  color: black;
+  display: block;
+  padding: 15px;
+  border: 2px solid #0cd7d7;
+  text-decoration: none;
+}
+a:hover {
+  animation-name: a-nimation;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  animation-iteraction-count: infinite;
+  font-weight: bold;  
+  border: 2px solid #0ab5b5;
+}
+
+@keyframes a-nimation {
+  0% {
+    background-color: #0cd7d7;
+  }
+  10% {
+    background-color: #CCFFFF;
+  }
+  20% {
+    background-color: #0cd7d7;
+  }
+  30% {
+    background-color: #CCFFFF;
+  }
+  40% {
+    background-color: #0cd7d7;
+  }
+  50% {
+    background-color: #CCFFFF;
+  }
+  60% {
+    background-color: #0cd7d7;
+  }
+  70% {
+    background-color: #CCFFFF;
+  }
+  80% {
+    background-color: #0cd7d7;
+  }
+  100% {
+    background-color: #CCFFFF;
+  }
+}
+
+main {
+  background-color: white;
+  flex: 1;
+  height: 100vh;
+  overflow-y: scroll;
+}
+header {
+  font-size: 24px;
+  font-weight: 600;
+}
+section {
+  padding: 15px;
+  line-height: 1.6;
+}
+
+
+
+@media (max-height: 400px) {
+  * {
+    font-size: 10px;
+  }
+  header {
+    font-size: 10px;
+  }
+}
+@media (max-width: 400px) {
+  * {
+    font-size: 10px;
+  }
+  header {
+    font-size: 10px;
+  }
+}
+
+code {
+  background-color: #CCC;
+  padding: 10px 25px;  
+  font-size: 13px;
+}
